@@ -1,0 +1,67 @@
+body,html{
+    background-color: rgb(75, 72, 72);
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.textcolor{
+    color: rgb(211, 211, 104);
+}
+.input{
+    height: 30px;
+    width: 200px;
+    margin-right: -50px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 30px;
+}
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    border: black solid;
+    border-radius: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 250px;
+    height: 400px;
+    background-color: white;
+}
+.img{
+    border-radius: 10px 10px 0px 0px;
+    border: black;
+
+}
+.cardbtn{
+    border: none;
+    margin-top: 42px;
+    margin-left:49px ;
+    font-size: 30px;
+    background-color:white;
+    color: black;
+}
+.card:hover{
+    transition-duration: 3s;
+    background-color: black;
+    color: white;
+}
+.cardbtn:hover{
+    transition-duration: 3s;
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    color: rgb(211, 211, 104);
+}
