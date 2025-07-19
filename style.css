@@ -1,67 +1,464 @@
-body,html{
-    background-color: rgb(75, 72, 72);
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.container{
-    color: white;
-    background-color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.textcolor{
-    color: rgb(211, 211, 104);
-}
-.input{
-    height: 30px;
-    width: 200px;
-    margin-right: -50px;
-}
-.btn{
-    background-color: black;
-    color: white;
-    border: none;
-    font-size: 30px;
-}
-.cardcontainer{
-    display: flex;
-    flex-wrap: wrap;
-}
-.card{
-    border: black solid;
-    border-radius: 16px;
-    margin-top: 10px;
-    margin-left: 20px;
-    width: 250px;
-    height: 400px;
-    background-color: white;
-}
 .img{
-    border-radius: 10px 10px 0px 0px;
-    border: black;
+    margin-top: 100px;
+    margin-left: 650px;
+}
+.para1{
+    
+    font-size: 40px;
+    margin-top: -550px;
+    margin-left: 50px;
+}
+.para2{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.btn1{
+    background-color: rgba(25, 26, 35, 1);
+    width: 264px;
+    height: 68px;
+    color: white;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-right: 35px;
+    bottom: 20px;
+    margin-left: 35px;
+}
+.img2{
+    position: absolute;
+margin-top: 200px;
+margin-left: -298px;
 
 }
-.cardbtn{
-    border: none;
-    margin-top: 42px;
-    margin-left:49px ;
+.img3{
+    position: absolute;
+margin-top: 200px;
+margin-left: -100px;
+
+}
+.img4{
+    position: absolute;
+margin-top: 200px;
+margin-left: 100px;
+
+}
+.img5{
+    position: absolute;
+margin-top: 200px;
+margin-left: 320px;
+
+}
+.img6{
+    position: absolute;
+margin-top: 200px;
+margin-left: 540px;
+
+}
+.img7{
+    position: absolute;
+margin-top: 200px;
+margin-left: 760px;
+
+}
+.img8{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: -300px;
+}
+.para3{
+   
+    font-size: 15px;
+    margin-top: 250px;
+    margin-left: 250px; 
+}
+.button1{
+    border: 1px black solid;
+    border-radius: 45px;
+    width: 600px;
+    height: 310px;
+    box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+    padding: 50px;
+    border: 1px solid rgba(25, 26, 35, 1)
+
+}
+.button2{
+    border: 1px black solid;
+    border-radius: 45px;
+    width: 600px;
+    height: 310px;
+    box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+    padding: 50px;
+    margin-left: 650px;
+    margin-top: -310px;
+    background-color: rgba(185, 255, 102, 1);
+}
+.para4{
+background-color: rgba(185, 255, 102, 1);
+width: 105px;
+text-align: center;
+border-radius: 6px;
+
+}
+.para5{
+background-color: rgba(185, 255, 102, 1);
+margin-top: -17px;
+border-radius: 6px;
+width: 110px;
+}
+.img9{
+    margin-left: 300px;
+}
+.img10{
+    margin-top: -110px;
+    margin-left: -20px;
+}
+.para6{
+background-color: white;
+width: 105px;
+border-radius: 6px;
+text-align: center;
+}
+.para7{
+background-color: white;
+width: 110px;
+border-radius: 6px;
+margin-left: 0px;
+text-align: center;
+margin-top: -17px;
+}
+.img11{
+     margin-left: 300px;
+}
+.img12{
+    margin-top: -110px;
+    margin-left: -20px;
+}
+.button3{
+    position: absolute;
+    width: 1234px;
+    height: 279.0000915527344px;
+    background-color: rgba(185, 255, 102, 1);
+    border-radius: 45px;
+    margin-left: -834px;
+    margin-top: 100px;
+}
+.img13{
+    margin-top: -150px;
+}
+.para8{
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 140px;
+}
+.button4{
+width: 1234px;
+height: 159px;
+border-radius: 45px;
+background-color: rgba(243, 243, 243, 1);
+box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+margin-left: -690px;
+margin-top: 400px;
+}
+.img14{
+    justify-content: space-between;
+}
+.button5{
+width: 1234px;
+height: 159px;
+border-radius: 45px;
+background-color: rgba(243, 243, 243, 1);
+box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+margin-left: -690px;
+margin-top: 50px;
+}
+.img15{
+    justify-content: space-between;
+}
+.button6{
+width: 1234px;
+height: 159px;
+border-radius: 45px;
+background-color: rgba(243, 243, 243, 1);
+box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+margin-left: -690px;
+margin-top: 50px;
+}
+.img16{
+    justify-content: space-between;
+}
+.button7{
+width: 1234px;
+height: 159px;
+border-radius: 45px;
+background-color: rgba(243, 243, 243, 1);
+box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+margin-left: -690px;
+margin-top: 50px;
+}
+.img17{
+    justify-content: space-between;
+}
+.button8{
+width: 1234px;
+height: 159px;
+border-radius: 45px;
+background-color: rgba(243, 243, 243, 1);
+box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+margin-left: -690px;
+margin-top: 50px;
+}
+.img18{
+    justify-content: space-between;
+}
+.content{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    background-color:white;
-    color: black;
+    margin-top: 1505px;
+    margin-left: 50px;
+    background-color: rgba(185, 255, 102, 1);
+    width: 160px;
+    height: 51px;
+    text-align: center;
+    border-radius: 6px;
 }
-.card:hover{
-    transition-duration: 3s;
-    background-color: black;
+.para9{
+    margin-left: 215px;
+    margin-top: -68px;
+}
+.inputbox{
+    width: 1240px;
+    height: 773px;
+    background-color:rgba(243, 243, 243, 1);
+    border-radius: 45px;
+    margin-top: 200px ;
+    margin-left: 10px;
+}
+.inputs{
+    width: 28px;
+    height: 28px;
+    margin-left: 200px;
+    margin-top:100px ;  
+}
+label{
+    position: absolute;
+    margin-top: 98px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.Emailinput{
+    border-radius: 16px;
+    width: 556px;
+    height: 50px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -260px;
+}
+.label2{
+    position: absolute;
+    margin-top: 210px;
+    margin-left:-255px ;
+}
+.Emailinput::placeholder{
+    position: absolute;
+    margin-left: 6px;
+}
+.Emailinput1{
+    border-radius: 16px;
+    width: 556px;
+    height: 50px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: -260px;
+}
+.label3{
+    position: absolute;
+    margin-top: 315px;
+    margin-left:-255px ;
+}
+.Emailinput1::placeholder{
+    position: absolute;
+    margin-left: 6px;
+}
+.Emailinput2{
+    border-radius: 16px;
+    width: 556px;
+    height: 190px;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: -260px;
+}
+.label4{
+    position: absolute;
+    margin-top: 415px;
+    margin-left:-255px ;
+}
+.Emailinput2::placeholder{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -70px;
+}
+.msgbtn{
+width: 556px;
+height: 68px;
+border-radius: 14px;
+background-color: rgba(25, 26, 35, 1);
+margin-top: 550px;
+margin-left: 200px;
+color: white;
+font-size: 30px;
+}
+.img19{
+    margin-left: 800px;
+    margin-top: -600px;
+}
+.lastbox{
+    width: 1241px;
+    height: 514px;
+    border-radius: 45px;
+    background-color: rgba(25, 26, 35, 1);
+    margin-left: 10px;
+    margin-top: 250px;
+}
+.iconimg{
+    width: 29.516691207885742px;
+    height: 29px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.word1{
     color: white;
+    font-size: 25px;
+    margin-left: 75px;
+    margin-top: -35px;
 }
-.cardbtn:hover{
-    transition-duration: 3s;
-    background-color: black;
+.btn2{
+    text-decoration: underline;
+    border: none;
+    background-color: rgba(25, 26, 35, 1);
     color: white;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -45px;   
 }
-.btn:hover{
-    color: rgb(211, 211, 104);
+.btn3{
+    text-decoration: underline;
+    border: none;
+    background-color: rgba(25, 26, 35, 1);
+    color: white;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -45px;   
+}
+.btn4{
+    text-decoration: underline;
+    border: none;
+    background-color: rgba(25, 26, 35, 1);
+    color: white;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -45px;   
+}
+.btn5{
+    text-decoration: underline;
+    border: none;
+    background-color: rgba(25, 26, 35, 1);
+    color: white;
+    position: absolute;
+    margin-left: 710px;
+    margin-top: -45px;   
+}
+.btn6{
+    text-decoration: underline;
+    border: none;
+    background-color: rgba(25, 26, 35, 1);
+    color: white;
+    position: absolute;
+    margin-left: 798px;
+    margin-top: -45px;   
+}
+.img20{
+    width: 30px;
+    height: 30px;
+    margin-left: 950px;
+    margin-top: -75px;
+}
+.img21{
+    width: 30px;
+    height: 30px;
+    margin-left: 1000px;
+    margin-top: -124px;
+}
+.img22{
+    width: 30px;
+    height: 30px;
+    margin-left: 1055px;
+    margin-top: -173px;
+}
+.contentus{
+    background-color: rgba(185, 255, 102, 1);
+    width: 126px;
+    height: 26px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50px;
+    border-radius: 7px;
+}
+.btncnt{
+    position: absolute;
+    background-color: rgba(185, 255, 102, 1);
+    border: none;
+    margin-left: -1045px;
+    border-radius: 7px;
+}
+.Emailbox{
+    background-color: rgba(41, 42, 50, 1);
+    border-radius: 14px;
+    width: 634px;
+    height: 184px;
+    margin-left: 550px;
+}
+.emailinput{
+    background-color: rgba(41, 42, 50, 1);
+    width: 285px;
+    height: 67px;
+    margin-top: 55px;
+    margin-left: 17px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 1) 
+}
+.emailinput::placeholder{
+    color: white;
+    position: absolute;
+    margin-left: 10px;
+}
+.subsbtn{
+    width: 249px;
+    height: 68px;
+    background-color: rgba(185, 255, 102, 1);
+    margin-left: 350px;
+    position: absolute;
+    margin-top: -68px;
+    border-radius: 14px;
+    border: none;
+}
+.email{
+    color: white;
+    margin-left: -515px;
+    margin-top: -90px;
+}
+.lastline{
+    margin-left: -500px;
+    margin-top: 30px;
+}
+.word3{
+    color: white;
+    margin-left: -517px;
+    margin-top: 40px;
+}
+.word4{
+color: white;
+margin-top: -40px;
+margin-left: -170px;
+text-decoration: underline;
 }
